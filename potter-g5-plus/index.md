@@ -1,19 +1,39 @@
-The Motorola Moto G5 Plus (codenamed _"potter"_) is a mid-range smartphone from Motorola mobility.
-It was announced on February 2017.
+---
+layout:     page
+title:      ferrari-dev
+thumbnail:  mobile
+---
 
-Basic   | Spec Sheet
--------:|:-------------------------
-CPU     | Octa-core 2.0 GHz Cortex-A53
-Chipset | Qualcomm MSM8953 Snapdragon 625
-GPU     | Adreno 506
-Memory  | 4 GB RAM
-Shipped Android Version | 7.0.0
-Storage | 32 GB
-MicroSD | Up to 256 GB
-Battery | Li-Ion 3000mAh battery
-Display | 1080 x 1920 pixels, 5.2 inches (~402 ppi pixel density)
-Camera  | 12 MP, 2150 x 1440 pixels, laser focus, dual flash LED
+_qcom sd 615(arm64), adreno 405, 2 GB, 16 GB, 13/5 MP, 5" FHD, not expandable_
 
-Copyright 2017 - The LineageOS Project.
+xiaomi is a pretty decent handset maker, (not) considering they release sources on time
+and have _great_ after sales service.
 
-![Moto G5 Plus](http://cdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g5-plus-1.jpg "Moto G5 Plus")
+they updated firmware in MIUI 7, which broke the kernel sources they released.
+CPUs were being offlined, and not able to be brought back offline once dead.
+
+you will have to flash firmware of miui v6.6.10.0 before flashing a custom ROM.
+
+[firmware-lp-6.6.10.0.zip](https://basketbuild.com/filedl/devs?dev=thewisenerd&dl=thewisenerd/ferrari/firmware-lp-6.6.10.0.zip)
+
+So, Uncle Dolan says this:
+
+![d1k mov xiaomy](http://i.imgur.com/JxkmNeo.jpg)
+
+---
+
+Moving on, thanks to @dh-harald, @smoki3, @k2wl, @omerjerk (and others I may have missed),
+this phone has cm-12.1 and cm13 (_already_).
+
+> If I have seen further it is by standing on the shoulders of Giants.
+>
+> -- Isaac Newton
+
+I make my own builds usually for updated ROM sources, or other spin-offs.
+You may find them here.
+
+[cm-12.1](cm-12.1/)
+
+---
+
+CAF kernel: [lp](caf-lp/)
