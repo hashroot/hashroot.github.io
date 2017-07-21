@@ -4,10 +4,11 @@
 
     <ul class="pages">
       <li><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a></li>
-      <li><a href="{{ site.baseurl }}/Mi4i/"><i class="fa fa-mobile"></i> xiaomi-Mi4i(ferrari)</a></li>
-      <li><a href="{{ site.baseurl }}/z-ultra/"><i class="fa fa-mobile"></i> xperia-z-ultra(togari)</a></li>
+      <li><a href="{{ site.baseurl }}/potter-dev(g5-plus)/"><i class="fa fa-mobile"></i> potter-dev(g5-plus)</a></li>
+      {% if site.posts.size %}
       <li><a href="{{ site.baseurl }}/posts/"><i class="fa fa-archive"></i> All Posts</a></li>
       <li><a href="{{ site.baseurl }}/search/"><i class="fa fa-search"></i> Search</a></li>
+      {% endif %}
     </ul>
 
     {% include social_links.html %}
