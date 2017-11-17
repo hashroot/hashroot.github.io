@@ -24,7 +24,7 @@ footer_right: "&lt;/&gt; on <a href=\"https://github.com/hashroot/hashroot.githu
 
 # Build settings
 markdown: kramdown
- redcarpet:
+kramdown:
  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 permalink: pretty
 exclude: [vendor]
