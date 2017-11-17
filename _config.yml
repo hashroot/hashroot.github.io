@@ -1,5 +1,5 @@
 # Site settings
-title: "Random shiz^"
+title: "workshop"
 email: rishabhad93@gmail.com
 description: "hashroot's showcase."
 baseurl: ""
@@ -23,7 +23,8 @@ footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitt
 footer_right: "&lt;/&gt; on <a href=\"https://github.com/hashroot/hashroot.github.com\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+ redcarpet:
+ extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 permalink: pretty
 exclude: [vendor]
 
